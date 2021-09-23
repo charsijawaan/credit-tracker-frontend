@@ -1,0 +1,7 @@
+.checkboxWrapper {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-evenly !important;
+    margin-top: 10px;    
+}

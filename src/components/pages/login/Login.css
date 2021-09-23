@@ -1,0 +1,30 @@
+p {
+	margin: 10px 0px 5px 0px;
+	color: #000000;
+}
+.container {
+	height: calc(100vh - 65.6px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px 60px;
+}
+.container div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container input {
+	background-color: #f7f7f7;
+	border: none;
+	border-radius: 5px;
+	padding: 7px 10px;
+}
+.container button {
+	background-color: #007aff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	margin-top: 12px;
+	padding: 5px 0px;
+}
