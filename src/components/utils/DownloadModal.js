@@ -16,7 +16,7 @@ function DownloadModal(props) {
             alert("Some Error Occured");
         } else {
             console.log(response.data.fileName);
-            response.data.fileName.split("https://")[2];
+            console.log(response.data.fileName.split("https://")[2]);
             window.open(
                 response.data.fileName,
                 "_blank",
