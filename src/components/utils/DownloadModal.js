@@ -15,6 +15,7 @@ function DownloadModal(props) {
         if (response.status !== 200) {
             alert("Some Error Occured");
         } else {
+            console.log("XXX");
             console.log(response.data.fileName);
             console.log(response.data.fileName.split("https://")[2]);
             window.open(
