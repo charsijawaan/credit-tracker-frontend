@@ -60,6 +60,7 @@ function Login({ history }) {
             <div>
                 <p>Password</p>
                 <input
+                    type="password"
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
